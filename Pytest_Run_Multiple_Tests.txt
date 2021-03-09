@@ -1,0 +1,11 @@
+'''
+1. Run all tests in a module/file
+    a. pytest -v -s test_Login.py
+    b. pytest -v -s test_SignUp.py
+
+2. Run all tests(from all modules) in a path
+    a. pytest -v -s path to file
+
+3. Run specific test method from a module
+    a. pytest -v -s test_Login.py::test_loginbyfacebook
+'''
